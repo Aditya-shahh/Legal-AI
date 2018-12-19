@@ -1,0 +1,41 @@
+<!-- <h1 class="app-name" style="text-align: center;">Welcome to Cryptocurrency Exchange and Forcast</h1> -->
+
+<div class="login-page">
+    
+    <div class="content">
+        
+        <form class="login-form" fxflex="" >
+            <div class="text-center">
+                <h2 class="app-name">Please login to continue!</h2>
+            </div>
+            <div fxflex="" fxlayout="row" fxlayout.lt-md="column">
+                <div fxFlexFill>
+                    <mat-form-field class="w-100">
+                        <input matInput placeholder="Email">
+                    </mat-form-field>
+                </div>
+            </div>
+            <div fxflex="" fxLayout="row" fxLayout.lt-md="column">
+                <div fxFlexFill>
+                    <mat-form-field class="w-100">
+                        <input matInput type="password" placeholder="Password">
+                    </mat-form-field>
+                </div>
+            </div>
+            <div fxflex="" fxLayout="row" fxLayout.lt-md="column" style="margin: 20px 0 30px 0">
+                <div fxFlex>
+                    <mat-checkbox color="primary">Remember Me</mat-checkbox>
+                </div>
+                <div fxflex="" fxLayoutAlign="end">
+                    <a href="javascript:void(0)">Forget Password</a>
+                </div>
+            </div>
+            <div fxflex="" fxLayout="row" fxLayout.lt-md="column">
+                <div fxFlexFill>
+                    <button mat-raised-button color="primary" class="w-100" (click)="onLogin()">Login</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>

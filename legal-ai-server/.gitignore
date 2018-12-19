@@ -1,0 +1,10 @@
+# Virtualenv
+.Python
+bin
+lib
+include
+*.py[cod]
+.vscode
+
+# Mac OS X custom attribute files
+.DS_Store
