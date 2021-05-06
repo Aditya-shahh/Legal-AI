@@ -10,7 +10,7 @@ chardet==3.0.4
 Click==7.0
 elasticsearch==6.3.1
 Flask==1.0.2
-Flask-Cors==3.0.7
+Flask-Cors==3.0.9
 idna==2.8
 isort==4.3.4
 itsdangerous==1.1.0
