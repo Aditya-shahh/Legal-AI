@@ -41,7 +41,7 @@ python-apt==1.1.0b1+ubuntu0.16.4.2
 python-debian==0.1.27
 python-systemd==231
 pyxdg==0.25
-reportlab==3.3.0
+reportlab==3.5.55
 requests==2.9.1
 screen-resolution-extra==0.0.0
 sessioninstaller==0.0.0
